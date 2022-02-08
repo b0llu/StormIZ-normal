@@ -3,17 +3,40 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 10rem repeat(2, auto);
-    grid-template-areas: 
-    'nav nav nav nav nav nav'
-    '... contentarea contentarea contentarea contentarea ...'
-    '... contentarea contentarea contentarea contentarea ...';
+    grid-template-areas:
+        'nav nav nav nav nav nav'
+        '... contentarea contentarea contentarea contentarea ...'
+        '... contentarea contentarea contentarea contentarea ...';
     background-color: var(--default-color);
 }
 
 nav {
     grid-area: nav;
+    margin-left: auto;
 }
 
 section {
     grid-area: contentarea;
+}
+
+@media screen and (max-width: 600px) {
+    .quiz-container {
+            grid-template-rows: 7rem repeat(2, auto);
+        grid-template-areas:
+            'nav nav nav nav nav nav'
+            'contentarea contentarea contentarea contentarea contentarea contentarea'
+            'contentarea contentarea contentarea contentarea contentarea contentarea';
+    }
+
+    nav {
+        margin-right: auto;
+    }
+
+    .theme {
+        padding: 2rem 1rem;
+    }
+
+    .quiz-img {
+        height: 18rem;
+    }
 }
