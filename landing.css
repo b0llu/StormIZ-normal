@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: var(--content-color);
+}
+
 .theme {
     font-size: 2rem;
     color: var(--content-color);
@@ -66,6 +71,16 @@
     pointer-events: all;
     cursor: pointer;
     margin-top: auto;
+}
+
+.take-quiz {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.take-quiz i {
+    margin-left: 1rem;
 }
 
 .take-quiz:hover {
