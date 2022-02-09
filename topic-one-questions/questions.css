@@ -62,3 +62,23 @@
     background-color: var(--for-answer);
     transition: 0.2s ease-in-out;
 }
+
+.correct {
+    background-color: var(--success-color);
+    font-weight: bold;
+    color: #fff;
+}
+
+.correct:hover {
+    background-color: var(--success-color);
+}
+
+.wrong {
+    background-color: var(--alert-color);
+    font-weight: bold;
+    color: #fff;
+}
+
+.wrong:hover {
+    background-color: var(--alert-color);
+}
