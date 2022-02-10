@@ -20,6 +20,10 @@ section {
 }
 
 @media screen and (max-width: 600px) {
+
+    html {
+        font-size: 50%;
+    }
     .quiz-container {
             grid-template-rows: 7rem repeat(2, auto);
         grid-template-areas:
@@ -33,7 +37,7 @@ section {
     }
 
     .theme {
-        padding: 2rem 1rem;
+        padding: 2rem 3rem;
     }
 
     .quiz-img {
