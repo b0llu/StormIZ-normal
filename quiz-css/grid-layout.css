@@ -43,4 +43,8 @@ section {
     .quiz-img {
         height: 18rem;
     }
+
+    .category-title {
+        margin-left: 2rem;
+    }
 }
