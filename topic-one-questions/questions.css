@@ -82,3 +82,8 @@
 .wrong:hover {
     background-color: var(--alert-color);
 }
+
+.take-quiz {
+    font-size: 3rem;
+    margin: 4rem 0;
+}

@@ -47,4 +47,9 @@ section {
     .category-title {
         margin-left: 2rem;
     }
+  
+    .rule-container .rule {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }
