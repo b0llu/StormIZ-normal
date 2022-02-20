@@ -1,108 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./landing.css">
-    <link rel="stylesheet" href="https://storm-components.netlify.app/components.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./quiz-css/grid-layout.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./landing.css" />
+    <link
+      rel="stylesheet"
+      href="https://storm-components.netlify.app/components.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./quiz-css/grid-layout.css" />
     <title>StormIZ</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="quiz-container">
-        <nav>
-            <a href="">
-                <i class=" theme fab fa-twitter"></i>
-            </a>
-            <a href="">
-                <i class=" theme fab fa-github"></i>
-            </a>
-            <i id="toggle-theme" class=" theme fas fa-moon"></i>
-        </nav>
-        <section>
-            <h1 class="title"><i class="fas fa-bolt"></i> StormIZ</h1>
-            <h2 class="subtitle">A Quiz App</h2>
-            <h2 class="category-title">Tv Show Quiz :</h2>
-            <div class="quiz-item">
-                <div class="card-container product-card card-shadow">
-                    <div class="quiz-img">
-                        <img class="card-img" src="https://flxt.tmsimg.com/assets/p8630071_b_h8_bc.jpg" alt="Suits Show Img" />
-                    </div>
-                    <h1 class="card-subtitle">I dont play the odd's, I play the man.</h1>
-                    <h2 class="card-title">Take this quiz to test yourself!</h2>
-                    <p class="card-description">5 Questions <a href="./rule-page/rule.html"><span class="take-quiz">Take Quiz <i
-                                    class="fas fa-chevron-right"></i></span></a>
-                    </p>
-                </div>
-                <div class="card-container product-card card-shadow">
-                    <div class="quiz-img">
-                        <img class="card-img"
-                            src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/11/Best-Episodes-of-The-Big-Bang-Theory%E2%80%99.jpg"
-                            alt="Big Bang Theory Img" />
-                    </div>
-                    <h1 class="card-subtitle">Bazzinga!</h1>
-                    <h2 class="card-title">Take this quiz to test yourself!</h2>
-                    <p class="card-description">5 Questions <a href="./rule-page/rule.html"><span class="take-quiz">Take
-                                Quiz <i class="fas fa-chevron-right"></i></span></a>
-                </div>
-            </div>
-            <h2 class="category-title">Movie Quiz :</h2>
-            <div class="quiz-item">
-                <div class="card-container product-card card-shadow">
-                    <div class="quiz-img">
-                        <img class="card-img"
-                            src="https://www.iwmbuzz.com/wp-content/uploads/2020/05/10-secret-facts-of-avengers-endgame-you-should-know-920x518.jpg"
-                            alt="..." />
-                    </div>
-                    <h1 class="card-subtitle">Whatever it takes</h1>
-                    <h2 class="card-title">Take this quiz to test yourself!</h2>
-                    <p class="card-description">5 Questions <a href="./rule-page/rule.html"><span class="take-quiz">Take
-                                Quiz <i class="fas fa-chevron-right"></i></span></a>
-                    </p>
-                </div>
-                <div class="card-container product-card card-shadow">
-                    <div class="quiz-img">
-                        <img class="card-img"
-                            src="https://bingemedia.net/wp-content/uploads/2020/06/Justice-League-1024x585.jpg"
-                            alt="..." />
-                    </div>
-                    <h1 class="card-subtitle">No lanterns, No kryptonians. This world will Fall.</h1>
-                    <h2 class="card-title">Take this quiz to test yourself!</h2>
-                    <p class="card-description">5 Questions <a href="./rule-page/rule.html"><span class="take-quiz">Take
-                                Quiz <i class="fas fa-chevron-right"></i></span></a>
-                </div>
-            </div>
-            <h2 class="category-title">Movie Quiz :</h2>
-            <div class="quiz-item">
-                <div class="card-container product-card card-shadow">
-                    <div class="quiz-img">
-                        <img class="card-img"
-                            src="https://www.iwmbuzz.com/wp-content/uploads/2020/05/10-secret-facts-of-avengers-endgame-you-should-know-920x518.jpg"
-                            alt="..." />
-                    </div>
-                    <h1 class="card-subtitle">Whatever it takes</h1>
-                    <h2 class="card-title">Take this quiz to test yourself!</h2>
-                    <p class="card-description">5 Questions <span class="take-quiz">Take Quiz <i
-                                class="fas fa-chevron-right"></i></span>
-                    </p>
-                </div>
-                <div class="card-container product-card card-shadow">
-                    <div class="quiz-img">
-                        <img class="card-img"
-                            src="https://bingemedia.net/wp-content/uploads/2020/06/Justice-League-1024x585.jpg"
-                            alt="..." />
-                    </div>
-                    <h1 class="card-subtitle">No lanterns, No kryptonians. This world will Fall.</h1>
-                    <h2 class="card-title">Take this quiz to test yourself!</h2>
-                    <p class="card-description">5 Questions <span class="take-quiz">Take Quiz <i
-                                class="fas fa-chevron-right"></i></span>
-                </div>
-            </div>
-        </section>
+      <nav>
+        <a href="https://twitter.com/TheBestDhruv">
+          <i class="theme fab fa-twitter"></i>
+        </a>
+        <a href="https://github.com/b0llu/StormIZ/tree/developer">
+          <i class="theme fab fa-github"></i>
+        </a>
+        <i id="toggle-theme" class="theme fas fa-moon"></i>
+      </nav>
+      <section>
+        <h1 class="title"><i class="fas fa-bolt"></i> StormIZ</h1>
+        <h2 class="subtitle">A Quiz App</h2>
+        <h2 class="category-subtitle">Select a Category</h2>
+        <div class="category-selector">
+          <a
+            class="category-title card-shadow"
+            href="./category-page/category-topic-one.html"
+            >Tv Show Quiz</a
+          >
+          <a
+            class="category-title card-shadow"
+            href="./category-page/category-topic-two.html"
+            >Movie Quiz</a
+          >
+        </div>
+      </section>
     </div>
     <script src="./quiz-js/theme.js"></script>
-</body>
+  </body>
 </html>
